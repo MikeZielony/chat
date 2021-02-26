@@ -10,9 +10,7 @@ import {ChatRoomComponent} from "./chat-room/chat-room.component";
     { path: 'roomlist', component: RoomlistComponent},
     { path: 'addroom', component: AddRoomComponent},
     { path: 'chatroom/:roomname', component: ChatRoomComponent},
-    { path: '',
-      redirectTo: '/login',
-      pathMatch: 'full'
+    { path: '', redirectTo: '/login', pathMatch: 'full'
     }
   ];
 
